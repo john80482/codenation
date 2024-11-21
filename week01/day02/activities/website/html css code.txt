@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Nation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Code Nation!</h1>
+  <p id="lede">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dolor earum omnis tempora dignissimos reprehenderit, provident tempore cumque itaque aliquid nemo totam! Sapiente porro odit similique fuga at soluta facere.</p>
+  <hr>
+  <br>
+  <h2>What We Do</h2>
+  <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore natus facere dicta ipsam cum. Deleniti esse autem dolore! Quos tempore, nobis ut velit totam atque consectetur exercitationem minus fuga illo.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quidem autem doloribus alias sint, illum dolorem at nemo consectetur, quas mollitia dolore velit iusto possimus ratione pariatur temporibus eum praesentium.</p>
+  <p class="copy">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dolorum, non, enim similique totam expedita fugiat perferendis minus impedit suscipit tempore voluptates sint quaerat sunt officiis! <a href="https://picsum.photos/id/237/300/300">Magni consectetur ipsum officia!</a>
+  </p>
+  <img src="https://picsum.photos/id/237/300/300" alt="Picture of a puppy">
+</body>
+</html>
+
+html {
+  background-color: antiquewhite;
+}
+ 
+body {
+  margin: 0 auto;
+  width: 1280px;
+  font-size: 24px;
+}
+ 
+h1 {
+  font-size: 4em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+ 
+h2 {
+  font-size: 3em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+ 
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+#lede {
+  font-size: 2em;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+ 
+.copy {
+  color: grey;
+}
+ 
+img {
+  border: 3px solid red;
+  margin: 10px 20px 30px 40px;
+  border-radius: 10px;
+}
+ 
+a {
+  color: navy;
+  text-decoration: none;
+  font-weight: bold;
+}
+ 
+a:hover {
+  background-color: navy;
+  color: white;
+}

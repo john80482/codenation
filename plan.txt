@@ -1,0 +1,9 @@
+Plan how the website looks, structure and placement 
+
+Code the website based on the plan 
+
+Test the website using VSCode 
+
+
+
+

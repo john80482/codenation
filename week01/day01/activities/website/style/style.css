@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    color: grey;
+    font-size: 24px;
+}
+
+.h2 {
+    color: magenta;
+}
+
+p1 { font-size: 30px;
+    color: gold;
+}
+
+h1 { color: blue;
+     font-size: 4em;
+   }
+
+p2 { color: green;
+    font-family: arial;
+    margin-left: 50px;
+}
+
+#lde {
+    color: yellow;
+}
+
+#parah1 {
+    font-size: 60px;
+    color: green;
+    margin-left: 60px;
+}
+
+.copy {
+    color: black;
+}
+
+img {
+    border: 5px solid blue;
+    margin: 50px 20px 15px 100px;
+    border-radius: 20px;
+}
+
+#cat {
+    width: 50%;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+a:visited {
+    color: navy;
+}

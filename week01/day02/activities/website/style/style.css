@@ -1,0 +1,102 @@
+* {
+    /*margin: 0; */
+    color: grey;
+    /* font-size: 24px; */
+}
+
+body
+    {
+        background-color: white;
+        justify-content:center ;
+        border-style: solid;
+        border-width: 10px;
+        border-color: lightblue;
+        
+    }
+
+#navbar {
+    margin-left: 50px;
+    margin-right: 50px;
+height: 130px;
+background-color: darkgrey;
+border-style: double;
+border-color: 5px  blue;
+font-size: 40px;
+font-family: 'Courier New', Courier, monospace;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+#pic {
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+p3 {
+    color: black;
+    font-size: 20px;
+}
+
+.h2 {
+    color: magenta;
+}
+
+p1 { font-size: 30px;
+align-items: ;
+    color: darkolivegreen;
+}
+
+h1  {
+    text-align: center;
+    color: black;
+    font-size: 130px;
+   }
+
+p2 { color: green;
+    font-family: arial;
+    margin-left: 50px;
+}
+
+#lde {
+    color: yellow;
+}
+
+#parah1 {
+    font-size: 60px;
+    color: green;
+    margin-left: 60px;
+}
+
+.copy {
+    color: black;
+}
+
+img {
+    width: 90%;
+    
+    margin-left: 0;
+    margin-right: auto;
+    
+    height: 450px;
+    position: fixed;
+    bottom:0;
+    border: 5px solid blue;
+    /* margin: 50px 20px 15px 20px; */
+    border-radius: 20px;
+}
+
+#cat {
+    width: 50%;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+a:visited {
+    color: navy;
+}
