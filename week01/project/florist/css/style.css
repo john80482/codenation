@@ -7,7 +7,8 @@
 body
     {
         background-image: url("/week01/project/florist/images/bi1.jpg");
-        background-size: cover;
+        background-size: cover ;
+        background-repeat: no-repeat;
         /*justify-content:center ; */
         border-style: solid;
         border-width: 10px;
@@ -31,10 +32,28 @@ justify-content: center;
 align-items: center;
 }
 
+.navbarbottom {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 450px;
+  column-gap: 50px;
+    margin-top: 10px;
+height: 60px;
+width:900px;
+
+    justify-content: space-around;
+flex-direction: row;
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+
 #mainimage{
     display:flex;
     margin-top: 20px;
-    margin-left: 950px;
+    margin-left: 850px;
     height: 400px;
     max-width: 100%;
     border-radius: 50%;
@@ -59,6 +78,12 @@ align-items: center;
     margin-left: auto;
 
 }
+.pages2 {
+    
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
 
 #pic {
     display: flex;
@@ -68,24 +93,34 @@ align-items: center;
 }
 
 h1 {
+    font-family: 'Times New Roman', Times, serif;
     color: magenta;
     align-items: center;
+    
 }
 
+h1 span {
 
+    color: red;
+    text-align: left;
+}
 
 #header1 { 
     display: flex;
-    font-size: 25px;
-    margin-left: 960px;
+    font-size: 24px;
+    margin-left: 600px;
+    justify-content: center;
     
 }
 
 
 
-p2 { color: green;
+
+
+p { color: black;
     font-family: arial;
-    margin-left: 50px;
+    margin-left: 850px;
+    font-size: 24px;
 }
 
 #lde {
