@@ -32,6 +32,20 @@ justify-content: center;
 align-items: center;
 }
 
+.mainimagerow {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+height: 75px;
+
+font-size: 40px;
+font-family: 'Courier New', Courier, monospace;
+
+/*flex-direction: row; */
+
+
+}
+
 .navbarbottom {
     display: flex;
     position: fixed;
@@ -59,6 +73,8 @@ font-family: 'Courier New', Courier, monospace;
     border-radius: 50%;
 }
 
+
+
 #mainimage>img {
     width: 600px;
     border-radius: 20%;
@@ -74,6 +90,13 @@ font-family: 'Courier New', Courier, monospace;
     justify-content: flex-start;
 }
 
+.timages{
+    display:flex;
+    height: 170px;
+    justify-content: space-around;
+    margin-left: 580px;
+    margin-top: 100px;
+}
 .pages {
     margin-left: auto;
 
