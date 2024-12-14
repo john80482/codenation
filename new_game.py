@@ -32,26 +32,27 @@ def user_input():
    read_input = input("l, r, f .....  ").lower()
   return read_input
 
-#start of game
-
 char_one ("Welcome to my game")
 print()
-printtext("You enter a dark corridor, you cant see infront of you")
-print()
-time.sleep(1)
-printtext("You know you have options - (l)eft, (r)ight or walk (f)orward")
-char_one("Make a choice")
 
-user_input()
-
-print(f"{dir_path}")
-
-if read_input == "l":
+#start of game
+def start():
+#  char_one ("Welcome to my game")
+#  print()
+  printtext("You enter a dark corridor, you cant see infront of you")
   print()
-  char_one("You have opted to turn left:")
-  exec(open('turned_left.py').read())
-  print("returned")
-  
+  time.sleep(1)
+  printtext("You know you have options - (l)eft, (r)ight or walk (f)orward")
+  char_one("Make a choice")
+  user_input()
+  if read_input == "l":
+    print()
+    char_one("You have opted to turn left:")
+    time.sleep(2)
+    exec(open('turned_left.py').read())
+    print()
+    start()
+
 if read_input == "r":
   print()
   char_one("You have selected to turn right:")
@@ -59,3 +60,5 @@ if read_input == "r":
 if read_input == "f":
   print()
   char_one("You have decided that walking forward is best:")
+
+start()
