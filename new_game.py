@@ -3,10 +3,12 @@
 # imports
 import sys,time
 import textwrap
+import os
 
 # set-up some variables
 
 read_input = 0
+dir_path = os.getcwd()
 
 # set-up some defenitions to be used
 
@@ -24,10 +26,10 @@ def char_one(txt, delay=0.1):
 
 def user_input():
   global read_input
-  read_input = input("l, r, f").lower() 
+  read_input = input("l, r, f .....  ").lower() 
   while read_input not in ("l","r","f"):
    print ("Not a valid option")
-   read_input = input("l, r, f").lower()
+   read_input = input("l, r, f .....  ").lower()
   return read_input
 
 #start of game
@@ -42,10 +44,14 @@ char_one("Make a choice")
 
 user_input()
 
+print(f"{dir_path}")
+
 if read_input == "l":
   print()
   char_one("You have opted to turn left:")
-
+  exec(open('turned_left.py').read())
+  print("returned")
+  
 if read_input == "r":
   print()
   char_one("You have selected to turn right:")
